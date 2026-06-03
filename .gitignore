@@ -7,5 +7,6 @@ yarn.lock
 .env
 
 # Build directory
+public/
 .DS_Store
 deploy.js
