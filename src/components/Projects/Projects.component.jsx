@@ -1,5 +1,7 @@
 /* eslint-disable */
 import React from 'react'
+import leetcodeClubLogo from '../../assets/images/UMN_Leetcode_Club_Logo.png'
+import goldyGopherLogo from '../../assets/images/Goldy_Gopher_Logo.jpg'
 
 const ProjectListing = () => {
     return(
@@ -9,22 +11,22 @@ const ProjectListing = () => {
           </header>
           <ul class="features">
             <li>
-              <span class="icon"><img style={{width: '64px', height: '64px', objectFit: 'contain'}} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"/></span>
+              <span class="icon"><img style={{width: '64px', height: '64px', objectFit: 'contain'}} src={leetcodeClubLogo}/></span>
               <h3>UMN LeetCode Club Platform</h3>
               <p><em>Next.js, TypeScript, GraphQL, Firestore</em></p>
               <p>
                 Built as Club President — an LLM-assisted ingestion pipeline (GraphQL + HTML extraction) standardizing a <strong>227-question</strong> bank from NeetCode, Blind75, and r/Leetcode. Powered <strong>6 events serving 200+ club members</strong> with a server-rendered Next.js + Firestore Cloud Functions UI featuring real-time RSVP and role-gated admin. Engineered resilient data infra: incremental backfills, secrets management, and branded HTML email workflows.
               </p>
-              <a href="https://github.com/rishiselvakumaran98" class="button">Learn More</a>
+              <a href="https://umn-leetcode-club.web.app" class="button">Learn More</a>
             </li>
             <li>
-              <span class="icon"><img style={{width: '64px', height: '64px', objectFit: 'contain'}} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/></span>
+              <span class="icon"><img style={{width: '64px', height: '64px', objectFit: 'contain'}} src={goldyGopherLogo}/></span>
               <h3>Gopher Grades (UMN.lol)</h3>
               <p><em>Python, Qdrant, K-Means, React.js</em></p>
               <p>
                 Built an AI feature used by <strong>10,000+ students per semester</strong> to generate professor summaries by embedding and clustering <strong>6,787 reviews</strong> (Qdrant + K-Means). Engineered auth, rate-limiting, and profanity-detection backend services for the open-source platform.
               </p>
-              <a href="https://umn.lol" class="button">Visit UMN.lol</a>
+              <a href="https://github.com/rishiselvakumaran98/gophergrades" class="button">View on GitHub</a>
             </li>
             <li>
               <span class="icon"><img style={{width: '64px', height: '64px', objectFit: 'contain'}} src="https://img.icons8.com/?size=100&id=FBO05Dys9QCg&format=png&color=000000"/></span>
